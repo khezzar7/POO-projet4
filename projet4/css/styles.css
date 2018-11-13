@@ -1,0 +1,20 @@
+body{
+  font-family: verdana;
+}
+#category, #suggestions{
+  width: 200px;
+}
+#suggestions{
+  list-style: none;
+  padding: 0;
+  width: 200px;
+  margin-top: 0;
+}
+#suggestions li{
+  background-color: grey;
+  font-size: .8rem;
+  color: white;
+  padding: 4px;
+  border-bottom: 1px white solid;
+  cursor: pointer;
+}
